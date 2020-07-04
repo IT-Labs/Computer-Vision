@@ -2,7 +2,7 @@ from selenium import webdriver
 from time import sleep
 import argparse
 
-pathToChromeDriver = r"path to you chrome driver exe"
+pathToChromeDriver = r"path to chrome driver exe"
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-n", "--num-images", type=int, default=500, help="# of images to download")
