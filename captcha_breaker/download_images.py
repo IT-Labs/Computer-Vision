@@ -8,6 +8,7 @@ pathToChromeDriver = os.path.join(currDir, 'chromedriver')
 url = r"https://enroll-eca-eco-intg.educationpartners.com/Account/Register/"
 
 ap = argparse.ArgumentParser()
+ap.add_argument("-o", "--output", required=True, help="path to input directory of images")
 ap.add_argument("-n", "--num-images", type=int, default=500, help="# of images to download")
 args = vars(ap.parse_args())
 
@@ -18,7 +19,7 @@ driver = webdriver.Chrome(pathToChromeDriver, chrome_options=options)
 for i in range(0, args["num_images"]):
     driver.get(url)
     sleep(1)
-    pathToSaveThePicture = os.path.join(currDir, 'captcha_images', str(i) + ".png")
+    pathToSaveThePicture = os.path.join(args["output"], str(i) + ".png")
     image = driver.find_element_by_css_selector('img[id=CaptchaImage]').screenshot(pathToSaveThePicture)
     sleep(0.2)
 
