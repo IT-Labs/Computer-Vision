@@ -10,7 +10,7 @@ ap.add_argument("-i", "--input", required=True, help="path to input directory of
 ap.add_argument("-a", "--annot", required=True, help="path to output directory of annotations")
 args = vars(ap.parse_args())
 
-imagePaths = list(paths.list_images(os.path.dirname(__file__) + '\\' + args["input"]))
+imagePaths = list(paths.list_images(args["input"]))
 counts = {}
 
 for (i, imagePath) in enumerate(imagePaths):
@@ -45,7 +45,7 @@ for (i, imagePath) in enumerate(imagePaths):
                     continue
 
                 key = chr(key).upper()
-                dirPath = os.path.sep.join(os.path.dirname(__file__) + '\\' + args["input", key])
+                dirPath = os.path.sep.join(args["input", key])
                 if not os.path.exists(dirPath):
                     os.makedirs(dirPath)
 
@@ -62,12 +62,12 @@ for (i, imagePath) in enumerate(imagePaths):
                 continue
 
             key = chr(key).upper()
-            dirPath = os.path.sep.join([os.path.dirname(__file__), args["annot"], key])
+            dirPath = os.path.sep.join([args["annot"], key])
             if not os.path.exists(dirPath):
                 os.makedirs(dirPath)
 
             count = counts.get(key, 1)
-            p = os.path.sep.join([dirPath, "{}.png".format(str(count).zfill(6))])
+            p = os.path.sep.join([dirPath, "{}.png".format(uuid.uuid1())])
             cv2.imwrite(p, roi)
 
             counts[key] = count + 1

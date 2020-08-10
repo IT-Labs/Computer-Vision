@@ -133,3 +133,5 @@ dmypy.json
 
 #datasets
 /datasets
+/captcha_breaker/chromedriver.exe
+/captcha_image.png
