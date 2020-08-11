@@ -10,13 +10,15 @@ import argparse
 import cv2
 import os
 
-from Chapter14.lenet import LeNet
-from captcha_breaker.captchahelper import preprocess
+from Chapter15.minivgg import MiniVGGNet
+from captcha_breaker.helper.utils.captchahelper import preprocess
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-d", "--dataset", required=True, help="path to input dataset")
 ap.add_argument("-m", "--model", required=True, help="path to output model")
 args = vars(ap.parse_args())
+
+os.environ["CUDA_VISIBLE_DEVICES"] = ''
 
 data = []
 labels = []
@@ -42,12 +44,12 @@ trainY = lb.transform(trainY)
 testY = lb.transform(testY)
 
 print("[INFO] compiling model...")
-model = LeNet.build(width=28, height=28, depth=1, classes=24)
-opt = SGD(lr=0.01)
+model = MiniVGGNet.build(width=28, height=28, depth=1, classes=24)
+opt = SGD(lr=0.01, decay=0.01 / 30, nesterov=True, momentum=0.9)
 model.compile(loss="categorical_crossentropy", optimizer=opt, metrics=["accuracy"])
 
 print("[INFO] training network...")
-H = model.fit(trainX, trainY, validation_data=(testX, testY), batch_size=32, epochs=15, verbose=1)
+H = model.fit(trainX, trainY, validation_data=(testX, testY), batch_size=32, epochs=30, verbose=1)
 
 print("[INFO] evaluating network...")
 predictions = model.predict(testX, batch_size=32)
@@ -58,10 +60,10 @@ model.save(args["model"])
 
 plt.style.use("ggplot")
 plt.figure()
-plt.plot(np.arange(0, 15), H.history["loss"], label="train_loss")
-plt.plot(np.arange(0, 15), H.history["val_loss"], label="val_loss")
-plt.plot(np.arange(0, 15), H.history["accuracy"], label="acc")
-plt.plot(np.arange(0, 15), H.history["val_accuracy"], label="val_acc")
+plt.plot(np.arange(0, 30), H.history["loss"], label="train_loss")
+plt.plot(np.arange(0, 30), H.history["val_loss"], label="val_loss")
+plt.plot(np.arange(0, 30), H.history["accuracy"], label="acc")
+plt.plot(np.arange(0, 30), H.history["val_accuracy"], label="val_acc")
 plt.title("Training Loss and Accuracy")
 plt.xlabel("Epoch #")
 plt.ylabel("Loss/Accuracy")

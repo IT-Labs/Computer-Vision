@@ -46,7 +46,8 @@ class MiniVGGNet:
         # of the input image
         # Then we apply POOL layer with a size of 2x2, and since we do not provide explicitly stride, keras asumes 2x2 S
         # Finally, a DROPOUT layer with a probabliy of 25%
-        model.add(Conv2D(32, (3, 3), padding="same", input_shape=inputShape))
+        model.add(Conv2D(32, (3, 3), padding="same",
+                         input_shape=inputShape))
         model.add(Activation("relu"))
         model.add(BatchNormalization(axis=chanDim))
         model.add(Conv2D(32, (3, 3), padding="same"))
