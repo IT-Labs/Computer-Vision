@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed9e6b45-9d38-4645-803b-3b03be1025cc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1gEwPWvSLwt3FjOooi8pk1wPdzQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/AnakondaIde/Lib/site-packages" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AnakondaIde\Lib\site-packages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="solve_sudoku_puzzle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="opencv-sudoku-solver" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solve_sudoku_puzzle.py" />
+      <option name="PARAMETERS" value="--model output/digit_classifier.h5 --image laura2.jpg --debug -1" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.solve_sudoku_puzzle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed9e6b45-9d38-4645-803b-3b03be1025cc" name="Default Changelist" comment="" />
+      <created>1597693035994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597693035994</updated>
+      <workItem from="1597693067662" duration="2315000" />
+      <workItem from="1597870353478" duration="1053000" />
+      <workItem from="1599857563416" duration="3095000" />
+      <workItem from="1600020669689" duration="2302000" />
+      <workItem from="1600085473797" duration="1317000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="199" y="26" width="1092" height="679" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600086055960">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="199" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1600086055960" />
+    <state x="2155" y="22" width="1092" height="679" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1360.728@1920.0.1360.728" timestamp="1600021544618" />
+    <state x="265" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597871387831" />
+    <state width="1493" height="350" key="GridCell.Tab.0.bottom" timestamp="1600086842565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="350" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1600086842565" />
+    <state width="1317" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1360.728@1920.0.1360.728" timestamp="1600022993252" />
+    <state width="1493" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597871415086" />
+    <state width="1493" height="350" key="GridCell.Tab.0.center" timestamp="1600086842565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="350" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1600086842565" />
+    <state width="1317" height="279" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1360.728@1920.0.1360.728" timestamp="1600022993252" />
+    <state width="1493" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597871415086" />
+    <state width="1493" height="350" key="GridCell.Tab.0.left" timestamp="1600086842564">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="350" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1600086842564" />
+    <state width="1317" height="279" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1360.728@1920.0.1360.728" timestamp="1600022993252" />
+    <state width="1493" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597871415086" />
+    <state width="1493" height="350" key="GridCell.Tab.0.right" timestamp="1600086842565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="350" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1600086842565" />
+    <state width="1317" height="279" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1360.728@1920.0.1360.728" timestamp="1600022993252" />
+    <state width="1493" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597871415086" />
+    <state width="1317" height="223" key="GridCell.Tab.1.bottom" timestamp="1600022993243">
+      <screen x="1920" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1360.728@1920.0.1360.728" timestamp="1600022993243" />
+    <state width="1317" height="223" key="GridCell.Tab.1.center" timestamp="1600022993242">
+      <screen x="1920" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1360.728@1920.0.1360.728" timestamp="1600022993242" />
+    <state width="1317" height="223" key="GridCell.Tab.1.left" timestamp="1600022993242">
+      <screen x="1920" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1360.728@1920.0.1360.728" timestamp="1600022993242" />
+    <state width="1317" height="223" key="GridCell.Tab.1.right" timestamp="1600022993242">
+      <screen x="1920" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1360.728@1920.0.1360.728" timestamp="1600022993242" />
+    <state x="2342" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1600085480412">
+      <screen x="1920" y="0" width="1360" height="728" />
+    </state>
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1599857570322" />
+    <state x="2342" y="212" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1360.728@1920.0.1360.728" timestamp="1600085480412" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597870353810" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyimagesearch/sudoku/puzzle.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyimagesearch/sudoku/puzzle.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyimagesearch/sudoku/puzzle.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyimagesearch/sudoku/puzzle.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyimagesearch/sudoku/puzzle.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyimagesearch/sudoku/puzzle.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyimagesearch/sudoku/puzzle.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyimagesearch/sudoku/puzzle.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyimagesearch/sudoku/puzzle.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyimagesearch/sudoku/puzzle.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyimagesearch/sudoku/puzzle.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solve_sudoku_puzzle.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/opencv_sudoku_solver$solve_sudoku_puzzle.coverage" NAME="solve_sudoku_puzzle Coverage Results" MODIFIED="1600086059024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
