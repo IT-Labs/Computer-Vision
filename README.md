@@ -1,6 +1,6 @@
 # Computer-Vision
 
-Computer Vision projects, using Deep Learning with Pyton
+Computer Vision projects, using Deep Learning with Python
 
 ## Materials
 - **Deep Learning for Computer Vision with Python** by Dr. Adrian Rosebrock
