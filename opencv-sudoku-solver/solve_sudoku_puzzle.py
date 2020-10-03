@@ -23,6 +23,8 @@ ap.add_argument("-d", "--debug", type=int, default=-1,
 	help="whether or not we are visualizing each step of the pipeline")
 args = vars(ap.parse_args())
 
+debug = args["debug"]
+
 # load the digit classifier from disk
 print("[INFO] loading digit classifier...")
 model = load_model(args["model"])
@@ -54,6 +56,9 @@ for y in range(0, 9):
 	row = []
 
 	for x in range(0, 9):
+		# just to show first 10 iterations
+		if x==1 and y==1:
+			debug = 0
 		# compute the starting and ending (x, y)-coordinates of the
 		# current cell
 		startX = x * stepX
@@ -67,7 +72,7 @@ for y in range(0, 9):
 		# crop the cell from the warped transform image and then
 		# extract the digit from the cell
 		cell = warped[startY:endY, startX:endX]
-		digit = extract_digit(cell, debug=args["debug"] > 0)
+		digit = extract_digit(cell, debug=debug>0)
 
 		# verify that the digit is not empty
 		if digit is not None:
@@ -83,7 +88,8 @@ for y in range(0, 9):
 			# classify the digit and update the sudoku board with the
 			# prediction
 			pred = model.predict(roi).argmax(axis=1)[0]
-			# ctypes.windll.user32.MessageBoxW(0, "Predicted: " + pred, "The prediction for this cell is", 0)
+			if debug > 0:
+				ctypes.windll.user32.MessageBoxW(0, "Predicted: " + str(pred), "The prediction for this cell is", 0)
 			board[y, x] = pred
 
 	# add the row to our cell locations
