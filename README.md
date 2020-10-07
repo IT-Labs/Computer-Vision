@@ -12,7 +12,7 @@ Computer Vision projects, using Deep Learning with Python
 
 ## Projects
 
-- [x] Captcha Breaker (creating custom dataset, training CNN and evaluation on various sites)
+- [x] Captcha Breaker (creating custom dataset, training CNN and evaluation)
 - [x] Sudoku Solver 
 - [x] Social Distancing Detector
 
