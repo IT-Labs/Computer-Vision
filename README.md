@@ -12,7 +12,7 @@ Computer Vision projects, using Deep Learning with Python
 
 ## Projects
 
-- [ ] Captcha Breaker (creating custom dataset, training CNN and evaluation on various sites)
-- [ ] Smile Detector (e2e application that can detect smiles in a video stream in real-time)
-- [ ] IT Labs Face Recognition (finishing what is started in [repository](https://github.com/IT-Labs/TLsfuntime))
+- [x] Captcha Breaker (creating custom dataset, training CNN and evaluation on various sites)
+- [x] Sudoku Solver 
+- [x] Social Distancing Detector
 
